@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run" : "npm run dev"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/Armaan48985/node_tutorial#readme",
   "dependencies": {
     "loadash": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
